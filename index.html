@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Robby Ulung Pambudi</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+  <body class="gradient-color">
+    <div class="main">
+      <div class="card-form">
+        <h1>Form Langanan Berita</h1>
+        <form id="registrationForm">
+          <div class="input-label">
+            <label id="icon" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="name"
+              required
+            />
+          </div>
+          <div class="input-label">
+            <label id="icon" for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="input-label">
+            <label id="icon" for="tanggal_lahir">Tanggal Lahir</label>
+            <input
+              type="date"
+              name="tanggal_lahir"
+              id="tanggal_lahir"
+              placeholder="Tanggal Lahir"
+              required
+            />
+          </div>
+          <div class="btn-block">
+            <button id="btnSignup" type="submit">Kirim</button>
+          </div>
+        </form>
+        <div>
+          <p class="">
+            Sudah Langanan?
+            <a href="#" onclick="loginPage()">Kembali</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
